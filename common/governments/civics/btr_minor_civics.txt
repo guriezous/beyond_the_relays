@@ -28,7 +28,7 @@
 #}
 
 ### KROGAN ###
-btr_krogan_blood_and_ash = {
+civic_btr_krogan_blood_and_ash = {
 		modification = no
 		potential = {
 			ethics = {
@@ -51,7 +51,7 @@ btr_krogan_blood_and_ash = {
 		}
 }
 
-btr_krogan_clans_of_tuchanka = {
+civic_btr_krogan_clans_of_tuchanka = {
 	modification = no
 	potential = {
 		ethics = {
@@ -76,7 +76,7 @@ btr_krogan_clans_of_tuchanka = {
 	}
 }
 
-btr_krogan_vengeance_burns_bright = {
+civic_btr_krogan_vengeance_burns_bright = {
 	modification = yes
 	potential = {
 		ethics = {
@@ -94,6 +94,6 @@ btr_krogan_vengeance_burns_bright = {
 		base = 10
 	}
 	modifier = {
-		
+
 	}
 }
