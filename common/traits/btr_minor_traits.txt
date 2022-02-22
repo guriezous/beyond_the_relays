@@ -1,6 +1,6 @@
 ### Krogan ###
 
-btr_krogan_biology = {
+trait_btr_krogan_biology = {
 	cost = 0
 	potential_crossbreeding_chance = 0
 
@@ -18,7 +18,7 @@ btr_krogan_biology = {
 	}
 }
 
-btr_krogan_genophage = {
+trait_btr_krogan_genophage = {
 	cost = 0
 	potential_crossbreeding_chance = 0
 	initial = yes
@@ -33,7 +33,7 @@ btr_krogan_genophage = {
 	}
 }
 
-btr_krogan_blood_rage =  {
+trait_btr_krogan_blood_rage =  {
 	cost = 0
 	potential_crossbreeding_chance = 0
 	initial = yes
@@ -49,7 +49,7 @@ btr_krogan_blood_rage =  {
 	}
 }
 
-btr_krogan_biological_redudancy = {
+trait_btr_krogan_biological_redudancy = {
 	cost = 0
 	potential_crossbreeding_chance = 0
 	initial = yes
@@ -64,7 +64,7 @@ btr_krogan_biological_redudancy = {
 	}
 }
 
-btr_krogan_battle_master = {
+trait_btr_krogan_battle_master = {
 	cost = 0
 
 	improves_leaders = yes
