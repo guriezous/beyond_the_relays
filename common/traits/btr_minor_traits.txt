@@ -1,0 +1,82 @@
+### Krogan ###
+
+btr_krogan_biology = {
+	cost = 0
+	potential_crossbreeding_chance = 0
+
+	initial = yes 
+	randomized = no
+	modification = no
+	allowed_archetypes = { BIOLOGICAL }
+	leader_age_min = 900
+	leader_age_max = 2500
+	modifier = {
+
+	}
+	slave_cost = {
+		energy = 200
+	}
+}
+
+btr_krogan_genophage = {
+	cost = 0
+	potential_crossbreeding_chance = 0
+	initial = yes
+	randomized = no
+	modification = no
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+	modifier = {
+		pop_growth_speed_reduction = 0.75
+		pop_happiness_negative = -0.25
+	}
+}
+
+btr_krogan_blood_rage =  {
+	cost = 0
+	potential_crossbreeding_chance = 0
+	initial = yes
+	randomized = no
+	modification = no
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+	modifier = {
+		army_attack_damage_mult = 0.25
+		army_morale_damage_mult = 0.25
+		army_collateral_damage_mult = 0.5
+	}
+}
+
+btr_krogan_biological_redudancy = {
+	cost = 0
+	potential_crossbreeding_chance = 0
+	initial = yes
+	randomized = no
+	modification = no
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+	modifier = {
+		army_health = 100
+		army_defense_health_mult = 1
+	}
+}
+
+btr_krogan_battle_master = {
+	cost = 0
+
+	improves_leaders = yes
+	initial = no
+	randomized = no
+	modification = no
+
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+
+	modifier = {
+		leader_skill_levels = +1
+		army_defense_morale_mult = 0.5
+		army_morale = 0.1
+	}
+}
